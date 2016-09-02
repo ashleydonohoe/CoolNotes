@@ -14,10 +14,10 @@
 		E02359E71D79249000A29415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02359E51D79249000A29415 /* LaunchScreen.storyboard */; };
 		E02359F01D7924AB00A29415 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E02359EE1D7924AB00A29415 /* Model.xcdatamodeld */; };
 		E0F3ACEC1D792A2C00025835 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACEB1D792A2C00025835 /* CoreDataStack.swift */; };
-		E0F3ACEE1D792A6100025835 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACED1D792A6100025835 /* Note.swift */; };
-		E0F3ACF01D792A8400025835 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACEF1D792A8400025835 /* Note+CoreDataProperties.swift */; };
-		E0F3ACF21D792A9500025835 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACF11D792A9500025835 /* Notebook.swift */; };
-		E0F3ACF41D792AA900025835 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACF31D792AA900025835 /* Notebook+CoreDataProperties.swift */; };
+		E0F3ACF91D792BA800025835 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACF51D792BA800025835 /* Note+CoreDataProperties.swift */; };
+		E0F3ACFA1D792BA800025835 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACF61D792BA800025835 /* Note.swift */; };
+		E0F3ACFB1D792BA800025835 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACF71D792BA800025835 /* Notebook+CoreDataProperties.swift */; };
+		E0F3ACFC1D792BA800025835 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3ACF81D792BA800025835 /* Notebook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		E02359E81D79249000A29415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E02359EF1D7924AB00A29415 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		E0F3ACEB1D792A2C00025835 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		E0F3ACED1D792A6100025835 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		E0F3ACEF1D792A8400025835 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E0F3ACF11D792A9500025835 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
-		E0F3ACF31D792AA900025835 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0F3ACF51D792BA800025835 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0F3ACF61D792BA800025835 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = ../Note.swift; sourceTree = "<group>"; };
+		E0F3ACF71D792BA800025835 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "../Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0F3ACF81D792BA800025835 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notebook.swift; path = ../Notebook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +66,28 @@
 		E02359DB1D79249000A29415 /* Cool Notes */ = {
 			isa = PBXGroup;
 			children = (
-				E02359EE1D7924AB00A29415 /* Model.xcdatamodeld */,
+				E0F3ACFD1D792BF200025835 /* Model */,
 				E02359DC1D79249000A29415 /* AppDelegate.swift */,
 				E02359DE1D79249000A29415 /* ViewController.swift */,
 				E02359E01D79249000A29415 /* Main.storyboard */,
 				E02359E31D79249000A29415 /* Assets.xcassets */,
 				E02359E51D79249000A29415 /* LaunchScreen.storyboard */,
 				E02359E81D79249000A29415 /* Info.plist */,
-				E0F3ACEB1D792A2C00025835 /* CoreDataStack.swift */,
-				E0F3ACED1D792A6100025835 /* Note.swift */,
-				E0F3ACEF1D792A8400025835 /* Note+CoreDataProperties.swift */,
-				E0F3ACF11D792A9500025835 /* Notebook.swift */,
-				E0F3ACF31D792AA900025835 /* Notebook+CoreDataProperties.swift */,
 			);
 			path = "Cool Notes";
+			sourceTree = "<group>";
+		};
+		E0F3ACFD1D792BF200025835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E02359EE1D7924AB00A29415 /* Model.xcdatamodeld */,
+				E0F3ACF81D792BA800025835 /* Notebook.swift */,
+				E0F3ACF51D792BA800025835 /* Note+CoreDataProperties.swift */,
+				E0F3ACEB1D792A2C00025835 /* CoreDataStack.swift */,
+				E0F3ACF71D792BA800025835 /* Notebook+CoreDataProperties.swift */,
+				E0F3ACF61D792BA800025835 /* Note.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,14 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F3ACF41D792AA900025835 /* Notebook+CoreDataProperties.swift in Sources */,
-				E0F3ACEE1D792A6100025835 /* Note.swift in Sources */,
 				E02359DF1D79249000A29415 /* ViewController.swift in Sources */,
 				E02359DD1D79249000A29415 /* AppDelegate.swift in Sources */,
+				E0F3ACFC1D792BA800025835 /* Notebook.swift in Sources */,
 				E02359F01D7924AB00A29415 /* Model.xcdatamodeld in Sources */,
 				E0F3ACEC1D792A2C00025835 /* CoreDataStack.swift in Sources */,
-				E0F3ACF01D792A8400025835 /* Note+CoreDataProperties.swift in Sources */,
-				E0F3ACF21D792A9500025835 /* Notebook.swift in Sources */,
+				E0F3ACFB1D792BA800025835 /* Notebook+CoreDataProperties.swift in Sources */,
+				E0F3ACF91D792BA800025835 /* Note+CoreDataProperties.swift in Sources */,
+				E0F3ACFA1D792BA800025835 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
